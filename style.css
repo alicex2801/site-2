@@ -546,3 +546,19 @@ footer {
     }
 
 /* media queries (responsividade) */
+
+/* Ajuste do texto About Me para mobile */
+@media (max-width: 768px) {
+  .about-content {
+    padding: 15px;
+    text-align: justify; /* deixa mais equilibrado */
+  }
+
+  .about-content p {
+    font-size: 14px;       
+    line-height: 1.4;      
+    max-width: 90%;        /* não deixa colar nas bordas */
+    margin: 0 auto;        /* centraliza o bloco */
+  }
+}
+
